@@ -1,9 +1,7 @@
 package com.fzy.jdk8.stream;
 
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 import java.util.stream.Collectors;
 
 /**
@@ -22,7 +20,7 @@ public class Stream {
 
     /**
      * ######################################################
-     * #=========================和传统的方法相比====================#
+     * #=========================jdk8====================#
      * ######################################################
      */
 
@@ -126,6 +124,110 @@ public class Stream {
      */
     public static void statistics(){
 
+        List<Integer> numbers = Arrays.asList(3, 2, 2, 3, 7, 3, 5);
+        IntSummaryStatistics stats  = numbers.stream().mapToInt((x) -> x).summaryStatistics();
+        System.out.println("列表中最大的数 : " + stats.getMax());
+        System.out.println("列表中最小的数 : " + stats.getMin());
+        System.out.println("所有数之和 : " + stats.getSum());
+        System.out.println("平均数 : " + stats.getAverage());
+
+    }
+
+
+
+    public static Map<String,Object> getParams(){
+
+        Map<String,Object> strMap = new HashMap<String,Object>();
+        strMap.put("a",1);
+        strMap.put("b",2);
+        strMap.put("c",3);
+
+        strMap.forEach((key, value) -> {
+            System.out.println(key+"::"+value);
+        });
+
+        return strMap;
+    }
+
+
+
+
+    /**
+     * ######################################################
+     * #=========================jdk7====================#
+     * ######################################################
+     */
+
+
+    /**
+     * 获取空字符串
+     *
+     * @param strings 需要处理字符串
+     * @return
+     */
+    private static int getCountEmptyStringUsingJava7(List<String> strings){
+
+        int count = 0;
+        for (String s : strings){
+            if (s.isEmpty()){
+                count++;
+            }
+        }
+        return count;
+    }
+
+    /**
+     * 统计字符串长度为3的数量
+     *
+     * @param strings 需要处理字符串
+     * @return
+     */
+    private static int getCountLength3UsingJava7(List<String> strings){
+
+        int count = 0;
+        for (String s : strings){
+            if (s.length() == 3){
+                count++;
+            }
+        }
+        return count;
+    }
+
+    /**
+     * 去除空字符串
+     *
+     * @param strings 需要处理字符串
+     * @return
+     */
+    private static List<String> deleteEmptyStringsUsingJava7(List<String> strings){
+
+        List<String> filteredList = new ArrayList<>();
+        for (String s : strings){
+            if (s.isEmpty()){
+                filteredList.add(s);
+            }
+        }
+        return filteredList;
+    }
+
+    /**
+     * 删除空字符串，并使用逗号把它们合并起来
+     *
+     * @param strings 需要处理字符串
+     * @param separator 分割符
+     * @return
+     */
+    private static String getMergedStringUsingJava7(List<String> strings , String separator){
+
+        StringBuilder stringBuilder = new StringBuilder();
+        for (String s : strings){
+            if (!s.isEmpty()){
+                stringBuilder.append(s);
+                stringBuilder.append(separator);
+            }
+        }
+        String mergedString = stringBuilder.toString();
+        return mergedString.substring(0, mergedString.length()-2);
 
     }
 
@@ -135,8 +237,23 @@ public class Stream {
 
 
 
+
+
+
+
+
+
+
     public static void main(String[] args){
-        Stream.collectors();
+
+
+        List<String> strings = Arrays.asList("abc", "", "bc", "efg", "abcd","", "jkl");
+
+        // 删除空字符串，并使用逗号把它们合并起来
+        String mergedString = getMergedStringUsingJava7(strings,", ");
+        System.out.println("合并字符串: " + mergedString);
+
+        //Stream.statistics();
     }
 
 
