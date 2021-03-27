@@ -232,7 +232,45 @@ public class Stream {
     }
 
 
+    /**
+     * 获取列表元素平方数
+     *
+     * @param numbers 列表元素
+     * @return
+     */
+    private static List<Integer> getSquares(List<Integer> numbers){
 
+        List<Integer> squaresList = new ArrayList<Integer>();
+
+        for (Number n : numbers){
+            Integer square = new Integer(n.intValue() * n.intValue());
+            if (!squaresList.contains(square)){
+                squaresList.add(square);
+            }
+        }
+        return squaresList;
+
+    }
+
+
+    /**
+     * 获取列表元素的最大值
+     *
+     * @param numbers 列表元素
+     * @return
+     */
+    private static int getMax(List<Integer> numbers){
+
+        int max = numbers.get(0);
+        for (int i = 1; i < numbers.size(); i++){
+            Integer number = numbers.get(i);
+                if (number > max){
+                    max = number;
+                }
+        }
+        return max;
+
+    }
 
 
 
