@@ -1,6 +1,13 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="JavaBase:war exploded">
     <output-path>$PROJECT_DIR$/target/MyLearn_1-1.0-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>JavaBase</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
@@ -49,6 +56,7 @@
           <element id="library" level="project" name="Maven: org.apache.mina:mina-core:2.0.4" />
           <element id="library" level="project" name="Maven: org.jsoup:jsoup:1.10.3" />
           <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.16.18" />
+          <element id="library" level="project" name="Maven: cn.hutool:hutool-core:5.5.8" />
         </element>
       </element>
       <element id="directory" name="META-INF">

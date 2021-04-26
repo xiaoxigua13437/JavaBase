@@ -1,6 +1,9 @@
 package com.fzy.jdk8.stream;
 
 
+import org.apache.commons.lang3.StringUtils;
+
+import java.math.BigDecimal;
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -62,7 +65,8 @@ public class StreamStudy {
         List<String> strings = Arrays.asList("abc", "", "bc", "efg", "abcd","", "jkl");
         //获取非空字符串的数量
         long count = strings.stream().filter(s -> !s.isEmpty()).count();
-        System.out.println("count:" + count);
+        long count1 = strings.stream().filter(s -> StringUtils.isNotEmpty(s)).count();
+        System.out.println("count:" + count1);
 
     }
 
@@ -347,7 +351,24 @@ public class StreamStudy {
                 .forEach(System.out::println);*/
 
         /*StreamStudy.distinctStream();*/
-        StreamStudy.test1();
+/*
+        StreamStudy.filter();
+*/
+        BigDecimal b1 = new BigDecimal("64.7024");//24.698,24.702
+        BigDecimal b2 = new BigDecimal("4");
+
+        System.out.println(b1.add(b2));
+        System.out.println(b1.subtract(b2));
+        System.out.println(b1.multiply(b2));
+        //结果：6.1755。除法保留有效位，不然容易报错
+        //ROUND_HALF_UP:四舍五入(一般采用这个)
+        System.out.println(b1.divide(b2,2,BigDecimal.ROUND_HALF_UP));
+        /*//ROUND_HALF_DOWN:四舍五入，如果结果小数位只比保留位多一位且最后一位为5则不进位
+        System.out.println(b1.divide(b2,3,BigDecimal.ROUND_HALF_DOWN));
+        //ROUND_UP:始终加一
+        System.out.println(b1.divide(b2,3,BigDecimal.ROUND_UP));
+        //ROUND_DOWN:直接截取
+        System.out.println(b1.divide(b2,3,BigDecimal.ROUND_DOWN));*/
 
 
 

@@ -2,6 +2,9 @@ package com.fzy.mixed_block.plusClass;
 
 import cn.hutool.core.util.StrUtil;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * 字符串工具-StrUtil
@@ -12,16 +15,24 @@ import cn.hutool.core.util.StrUtil;
 public class StrUtilTest {
 
 
+    private static long totalNum = 0;
+
+
     /**
      *
      */
     public static void format(){
-        String template = "{}爱{}，就像老鼠爱大米";
-        String str = StrUtil.format(template,"我","你");
+        String template = "第{}层合格率:{}";
+        String str = StrUtil.format(template,"1","20%");
         System.out.println(str);
     }
 
 
+
+    public static void main(String[] args){
+
+
+    }
 
 
 

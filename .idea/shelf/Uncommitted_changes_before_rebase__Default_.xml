@@ -1,0 +1,44 @@
+<changelist name="Uncommitted_changes_before_rebase_[Default]" date="1619420864472" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before rebase [Default]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/fzy/socket/udp/ServerMethod.class" />
+    <option name="AFTER_PATH" value="target/classes/com/fzy/socket/udp/ServerMethod.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default]/ServerMethod.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/fzy/socket/udp/Test$2.class" />
+    <option name="AFTER_PATH" value="target/classes/com/fzy/socket/udp/Test$2.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default]/Test$2.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/fzy/example/SubClass.class" />
+    <option name="AFTER_PATH" value="target/classes/com/fzy/example/SubClass.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default]/SubClass.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/fzy/thread/thread_synchronized/ThreadSynchronized.class" />
+    <option name="AFTER_PATH" value="target/classes/com/fzy/thread/thread_synchronized/ThreadSynchronized.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default]/ThreadSynchronized.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/fzy/socket/udp/Test.class" />
+    <option name="AFTER_PATH" value="target/classes/com/fzy/socket/udp/Test.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default]/Test.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/fzy/socket/udp/Test$1.class" />
+    <option name="AFTER_PATH" value="target/classes/com/fzy/socket/udp/Test$1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default]/Test$1.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/fzy/serializable/SerializableUtils.class" />
+    <option name="AFTER_PATH" value="target/classes/com/fzy/serializable/SerializableUtils.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default]/SerializableUtils.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/fzy/Test.class" />
+    <option name="AFTER_PATH" value="target/classes/com/fzy/Test.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default]/Test1.class" />
+  </binary>
+</changelist>

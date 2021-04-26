@@ -1,6 +1,12 @@
 <component name="ArtifactManager">
   <artifact type="war" name="JavaBase:war">
     <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>JavaBase</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
     <root id="archive" name="MyLearn_1-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="JavaBase:war exploded" />
     </root>

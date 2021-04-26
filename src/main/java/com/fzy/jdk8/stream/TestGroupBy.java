@@ -55,6 +55,7 @@ public class TestGroupBy {
         u4.setSchoolId(300);
         u4.setEdu("001");
         u4.setPrice(40.0);
+        u3.setUserName("小4");
 
         users.add(u1);
         users.add(u2);
@@ -94,16 +95,35 @@ public class TestGroupBy {
         Map <String,Long> collect = users.stream().collect(Collectors.groupingBy(User::getEdu,
                 //获取count数量
                 Collectors.counting()));
+
+        collect.forEach((s, a) -> {
+            System.out.println(s+"\n");
+            System.out.println(a+"\n");
+
+        });
         System.out.println(collect);
 
     }
+
+
+    public static void test5(){
+
+        //取出对象中的属性值
+        List<String> s = users.stream().map(e -> e.getUserName()).collect(Collectors.toList());
+        System.out.println(s);
+    }
+
+
+
+
+
 
 
 
 
     public static void main(String[] args) {
 
-        TestGroupBy.test4();
+        TestGroupBy.test5();
 
 
 
