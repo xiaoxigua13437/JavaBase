@@ -40,8 +40,9 @@ public class StringUtil {
 
 
     /**
-     *  检验两个非空字符串是否equal，有一个为null时返回false
-     **/
+     *
+     * 检验两个非空字符串是否equal,有一个为null时返回false
+     */
     public static boolean isEquals(String str1,String str2){
         if (str1 == null || str2 == null){
             return  false;
@@ -110,7 +111,6 @@ public class StringUtil {
      * @returnType int
      * @param content
      * @param regex
-     * @return
      * @description 匹配字符串中子串出现的次数
      */
     public static int appearNumber(String content,String regex) {
