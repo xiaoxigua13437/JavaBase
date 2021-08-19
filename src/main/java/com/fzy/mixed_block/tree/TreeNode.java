@@ -1,11 +1,11 @@
 package com.fzy.mixed_block.tree;
 
+import cn.hutool.core.lang.Assert;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import java.util.ArrayList;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
+
+import java.text.DecimalFormat;
+import java.util.*;
 
 @Data
 @NoArgsConstructor
@@ -93,7 +93,7 @@ public class TreeNode {
 
     public static void main(String[] args){
 
-        List<TreeNode> singleNodes = new ArrayList<TreeNode>();
+        /*List<TreeNode> singleNodes = new ArrayList<TreeNode>();
         singleNodes.add(new TreeNode("a","1","节点1"));
         singleNodes.add(new TreeNode("b","2","节点2"));
         singleNodes.add(new TreeNode("c","3","节点3"));
@@ -103,10 +103,16 @@ public class TreeNode {
         singleNodes.add(new TreeNode("1","7","节点1-2"));
         singleNodes.add(new TreeNode("2","8","节点2-2"));
         List<TreeNode> treeNodes = TreeNode.assembleTree(singleNodes);
-        outputResult(treeNodes);
+        outputResult(treeNodes);*/
 
+        /*DecimalFormat df = new DecimalFormat("0%");
+        System.out.println(df.format(0.89));*/
+        long current = System.currentTimeMillis();
+        long zero = current / (1000 * 3600 * 24) * (1000 * 3600 * 24) - TimeZone.getDefault().getRawOffset();
+        System.out.println(zero);
 
     }
+
 
 
 }
