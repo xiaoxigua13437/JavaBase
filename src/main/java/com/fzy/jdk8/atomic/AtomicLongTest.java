@@ -1,6 +1,8 @@
 package com.fzy.jdk8.atomic;
 
 
+import com.fzy.thread.thread_pool.ExcutorProcessPool;
+
 import java.util.concurrent.atomic.AtomicLong;
 
 /**
@@ -15,10 +17,28 @@ public class AtomicLongTest {
 
 
     public static void main(String[] args){
-        //1、创建具有初始值 0 的新 AtomicLong,AtomicInteger。
+        //1、getAndAdd()方法:先获取当前值再加上特定的值
         AtomicLong atomicLong = new AtomicLong(10);
         atomicLong.getAndAdd(3);
         System.out.println("Value：" + atomicLong.get());
+
+        //2、addAndGet()方法:以原子方式将给定值添加到当前值,先加上特定的值，再获取结果
+        AtomicLong atomicLong2 = new AtomicLong(3);
+        atomicLong2.addAndGet(5);
+        System.out.println("Value：" + atomicLong2.get());
+
+        //3、compareAndSet()方法:如果当前值 == 预期值，则以原子方式将该值设置为给定的更新值
+        AtomicLong atomicLong3 = new AtomicLong(10);
+        atomicLong3.compareAndSet(10,15);
+        System.out.println("Value：" + atomicLong3.get());
+
+        //4、getAndSet()方法:以原子方式设置为给定值，并返回旧值
+        AtomicLong atomicLong4 = new AtomicLong(10);
+        atomicLong4.getAndSet(6);
+        System.out.println("Value：" + atomicLong4.get());
+
+
+
 
 
 
