@@ -2,6 +2,7 @@ package com.fzy.jdk8.optional;
 
 
 import java.util.Optional;
+import java.util.concurrent.atomic.LongAdder;
 
 /**
  *
@@ -16,6 +17,18 @@ import java.util.Optional;
  *
  */
 public class OptionalTest {
+
+    public static LongAdder longAdder = new LongAdder();
+
+
+
+    public static void testAdd(){
+
+        longAdder.add(10);
+
+    }
+
+
 
 
 

@@ -16,7 +16,7 @@ import java.net.InetSocketAddress;
 public class SocketUdpServer {
 
     public static void start(int serverPort,SocketUdpServerMethod method){
-        new SocketUdpServer().starpUp(serverPort,method);
+        new SocketUdpServer().startUp(serverPort,method);
     }
 
     /**
@@ -24,7 +24,7 @@ public class SocketUdpServer {
      * @param serverPort  端口
      * @throws IOException
      */
-    public void starpUp(int serverPort,SocketUdpServerMethod method){
+    public void startUp(int serverPort,SocketUdpServerMethod method){
         try {
             InetSocketAddress inetSocketAddress=new InetSocketAddress(serverPort);
             DatagramSocket datagramSocket=new DatagramSocket(inetSocketAddress);

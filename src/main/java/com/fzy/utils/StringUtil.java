@@ -27,15 +27,12 @@ public class StringUtil {
 
     /**
      * 比较两个非空字符串是否相同
-     **/
+     */
     public static boolean compare(String str1,String str2){
         if (isEmpty(str1) || isEmpty(str2) ){
             return false;
         }
-        if (str1.equals(str2)){
-            return true;
-        }
-        return  false;
+        return str1.equals(str2);
     }
 
 
@@ -47,10 +44,7 @@ public class StringUtil {
         if (str1 == null || str2 == null){
             return  false;
         }
-        if (str1.equals(str2)){
-            return true;
-        }
-        return false;
+        return str1.equals(str2);
     }
 
 
@@ -109,8 +103,8 @@ public class StringUtil {
      * @className StringUtil
      * @methodNname appearNumber
      * @returnType int
-     * @param content
-     * @param regex
+     * @param content 字符串
+     * @param regex 子串
      * @description 匹配字符串中子串出现的次数
      */
     public static int appearNumber(String content,String regex) {
@@ -151,6 +145,8 @@ public class StringUtil {
 
     public static void main(String[] args){
 
+        int a = StringUtil.appearNumber("h/e/l/lo","/");
+        System.out.println(a);
 
     }
 

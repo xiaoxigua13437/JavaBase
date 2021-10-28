@@ -2,6 +2,10 @@ package com.fzy.jdk8.stream;
 
 import lombok.Data;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -113,18 +117,54 @@ public class TestGroupBy {
         System.out.println(s);
     }
 
+    /**
+     * MapValue相除
+     */
+    public static Map<String, Integer> mapValueDivision(Map<String, Integer> m1, Map<String, Integer> m2) {
+        Map<String,BigDecimal> map = new HashMap<>();
+        for (String sourceKey : m1.keySet()) {
+            if (m2.containsKey(sourceKey)) {
+                m2.put(sourceKey, m1.get(sourceKey) / m2.get(sourceKey));
+            }
+        }
+        System.out.println(m2);
+        return m2;
+    }
 
 
 
 
-
-
+    /**
+     *
+     * @param dou
+     */
+    public static int DoubleFormatInt(Double dou){
+        DecimalFormat df = new DecimalFormat("##0.00");
+        return Integer.parseInt(df.format(dou));
+    }
 
 
     public static void main(String[] args) {
 
-        TestGroupBy.test5();
 
+        BigDecimal a =null;
+        Integer faultRate = 6;
+        a = BigDecimal.valueOf(faultRate.doubleValue()/3);
+        BigDecimal b =a.setScale(2, RoundingMode.HALF_UP);//保留两位小数
+        System.out.println("结果是"+b);
+        //结果转化成百分比
+        NumberFormat percent = NumberFormat.getPercentInstance();
+        percent.setMaximumFractionDigits(2);
+        System.out.println(percent.format(b.doubleValue()));
+
+
+
+
+        /*Map<String,Integer> a = new HashMap<>();
+        a.put("1",1);
+        Map<String,Integer> b = new HashMap<>();
+        b.put("1",2);
+        TestGroupBy.mapValueDivision(a,b);*/
 
 
 
