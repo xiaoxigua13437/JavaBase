@@ -214,16 +214,15 @@ public class Stream {
      * 删除空字符串，并使用逗号把它们合并起来
      *
      * @param strings 需要处理字符串
-     * @param separator 分割符
      * @return
      */
-    private static String getMergedStringUsingJava7(List<String> strings , String separator){
+    private static String getMergedStringUsingJava7(List<String> strings){
 
         StringBuilder stringBuilder = new StringBuilder();
         for (String s : strings){
             if (!s.isEmpty()){
                 stringBuilder.append(s);
-                stringBuilder.append(separator);
+                stringBuilder.append(", ");
             }
         }
         String mergedString = stringBuilder.toString();
@@ -288,7 +287,7 @@ public class Stream {
         List<String> strings = Arrays.asList("abc", "", "bc", "efg", "abcd","", "jkl");
 
         // 删除空字符串，并使用逗号把它们合并起来
-        String mergedString = getMergedStringUsingJava7(strings,", ");
+        String mergedString = getMergedStringUsingJava7(strings);
         System.out.println("合并字符串: " + mergedString);
 
         //Stream.statistics();
