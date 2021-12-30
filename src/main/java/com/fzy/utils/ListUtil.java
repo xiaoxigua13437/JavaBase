@@ -195,7 +195,6 @@ public class ListUtil {
             b=true;
         } catch (Exception e) {
             //如果图片未找到
-            b=false;
         }
         int[] a = new int[2];
         if(b){//图片存在
