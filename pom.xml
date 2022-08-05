@@ -22,7 +22,7 @@
     <!--开发人员-->
     <developers>
         <developer>
-            <name>fuzhongyu</name>
+            <name>yuShu</name>
         </developer>
     </developers>
     <!--许可证信息，有些开源框架可能会需要一些许可证信息-->
@@ -173,6 +173,12 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+            <version>RELEASE</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
             <version>RELEASE</version>
             <scope>compile</scope>
         </dependency>
