@@ -23,9 +23,7 @@ public class OptionalTest {
 
 
     public static void testAdd(){
-
         longAdder.add(10);
-
     }
 
 
