@@ -93,7 +93,6 @@ public class ListUtil {
      * @param isAsc    true升序，false降序
      * @param a
      * @param b
-     * @return
      * @throws Exception
      */
     private static <E> int compareObject(final String sortName, final boolean isAsc, E a, E b) throws Exception {
@@ -126,7 +125,6 @@ public class ListUtil {
      *
      * @param obj       属性名称所在的对象
      * @param fieldName 属性名称
-     * @return
      * @throws Exception
      */
     public static Object forceGetFieldValue(Object obj, String fieldName) throws Exception {

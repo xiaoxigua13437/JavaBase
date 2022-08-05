@@ -18,7 +18,7 @@ public class InputStreamReader_OutputStreamWriter {
         String filepath="src/main/java/com/fzy/io/test_file/myfile.txt";
         String info="write info to myfile! 写入信息到myfile文件";
 
-        inputToFileWithEncoding(info,filepath,"gbk");
+        inputToFileWithEncoding(info,filepath);
 
         readFile(filepath,"gbk");
         readFile(filepath,"utf-8");
@@ -29,11 +29,10 @@ public class InputStreamReader_OutputStreamWriter {
      * 写入文件
      * @param info
      * @param filepath
-     * @param charset
      */
-    private void inputToFileWithEncoding(String info,String filepath,String charset){
+    private void inputToFileWithEncoding(String info, String filepath){
         try {
-            OutputStreamWriter outputStreamWriter=new OutputStreamWriter(new FileOutputStream(filepath),charset);
+            OutputStreamWriter outputStreamWriter=new OutputStreamWriter(new FileOutputStream(filepath), "gbk");
             //写10行
             for (int i=0;i<10;i++){
                 outputStreamWriter.write(info);
@@ -64,7 +63,6 @@ public class InputStreamReader_OutputStreamWriter {
                 charArrayWriter.write(chars,0,len);
             }
             String str=charArrayWriter.toString();
-
             System.out.println(str);
             inputStreamReader.close();
 

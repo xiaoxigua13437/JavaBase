@@ -6,6 +6,7 @@ import org.apache.flume.sink.AbstractSink;
 import org.junit.Test;
 
 import java.sql.Connection;
+import java.util.Arrays;
 
 /**
  * @author fuzhongyu
@@ -29,7 +30,7 @@ public class FlumeSkinsJdbc extends AbstractSink implements Configurable {
                 break;
             }
         }
-        System.out.println(event.getBody());
+        System.out.println(Arrays.toString(event.getBody()));
 
         return null;
     }

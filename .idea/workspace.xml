@@ -4,31 +4,73 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbbd2417-4ed3-4db7-84f2-5dac176162ad" name="Default" comment="feat:Atomic类(;;)">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_62.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzy/utils/ListUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fzy/utils/ObjectUtil.java" afterDir="false" />
+    <list default="true" id="bbbd2417-4ed3-4db7-84f2-5dac176162ad" name="Default" comment="feat:(循环栏类)-add">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/JavaBase_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/JavaBase_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_18.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_core_5_5_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_core_5_5_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_62.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_62.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_11_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_11_0_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_5_12_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_5_12_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_1_7_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_1_7_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_ipc_1_7_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_ipc_1_7_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flume_flume_ng_configuration_1_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flume_flume_ng_configuration_1_5_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flume_flume_ng_core_1_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flume_flume_ng_core_1_5_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flume_flume_ng_sdk_1_5_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_flume_flume_ng_sdk_1_5_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_mina_mina_core_2_0_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_mina_mina_core_2_0_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_thrift_libthrift_0_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_thrift_libthrift_0_7_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_8_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_8_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_8_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_8_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_10_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_10_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_6_1_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_6_1_26.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_26.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_26.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_servlet_api_2_5_20110124.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mortbay_jetty_servlet_api_2_5_20110124.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_syslog4j_syslog4j_0_9_30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_syslog4j_syslog4j_0_9_30.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_0_4_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_0_4_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaBase.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBase.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fzy/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fzy/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fzy/flume/FlumeSkinsJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fzy/flume/FlumeSkinsJdbc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fzy/flume/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fzy/flume/Students.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fzy/jdk8/optional/OptionalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fzy/jdk8/optional/OptionalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fzy/jdk8/stream/TestGroupBy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fzy/jdk8/stream/TestGroupBy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fzy/socket/udp/SocketUdpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fzy/socket/udp/SocketUdpServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fzy/utils/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fzy/utils/StringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fzy/io/InputStreamReader_OutputStreamWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fzy/io/InputStreamReader_OutputStreamWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fzy/mixed_block/plusClass/StrUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fzy/mixed_block/plusClass/StrUtilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fzy/regular/UsuallyUseMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fzy/regular/UsuallyUseMatching.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fzy/utils/ListUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fzy/utils/ListUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/fzy/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fzy/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fzy/flume/FlumeSkinsJdbc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fzy/flume/FlumeSkinsJdbc.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/fzy/flume/Students.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fzy/flume/Students.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fzy/jdk8/optional/OptionalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fzy/jdk8/optional/OptionalTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fzy/jdk8/stream/TestGroupBy$User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fzy/jdk8/stream/TestGroupBy$User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fzy/jdk8/stream/TestGroupBy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fzy/jdk8/stream/TestGroupBy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fzy/io/InputStreamReader_OutputStreamWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fzy/io/InputStreamReader_OutputStreamWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fzy/jdk8/stream/Stream.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fzy/jdk8/stream/Stream.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/fzy/mixed_block/plusClass/StrUtilTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fzy/mixed_block/plusClass/StrUtilTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fzy/mixed_block/tree/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fzy/mixed_block/tree/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fzy/socket/udp/SocketUdpServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fzy/socket/udp/SocketUdpServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fzy/regular/UsuallyUseMatching.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fzy/regular/UsuallyUseMatching.class" afterDir="false" />
     </list>
     <list id="a0830296-21ec-406e-a395-291b4860f688" name="Revert &quot;fix: 利用有序Map把一维数据转换为树结构的方法&quot;" comment="fix: 利用有序Map把一维数据转换为树结构" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +120,15 @@
       <find>putVal</find>
     </findStrings>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="dev-20211110" />
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev-20211110" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
   </component>
@@ -90,25 +140,31 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="develop" />
+      </list>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/fzy/mixed_block/tree/BinarySearchTree.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://D:/Jdk/jdk1.8/src.zip!/java/util/concurrent/atomic/AtomicInteger.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/fzy/mixed_block/tree/RedBlackTree.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/fzy/flume/SyslogSendToFluem.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/fzy/flume/Students.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/fzy/jdk8/stream/StreamCollectStudy.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/fzy/mixed_block/map_know/MapSort.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/fzy/mixed_block/collect/ErgodicDataByMuster.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://D:/Jdk/jdk1.8/src.zip!/java/util/concurrent/atomic/LongAdder.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/fzy/mixed_block/class_load/ClassLoadTest.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/fzy/mixed_block/operation/OperationStudy.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/fzy/Test.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://D:/Repository/cn/pinming/zhuang/2.5.3-zj3jjg-SNAPSHOT/zhuang-2.5.3-zj3jjg-20210703.060400-58-sources.jar!/cn/pinming/v2/project/api/service/ConstructionProjectService.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/fzy/jdk8/stream/TestGroupBy.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/main/java/com/fzy/io/Write_Reader.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://D:/Jdk/jdk1.8/src.zip!/java/util/concurrent/atomic/AtomicLong.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://D:/Jdk/jdk1.8/jre/lib/rt.jar!/sun/misc/Unsafe.class" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://D:/JDK/jdk1.8/jre/lib/rt.jar!/sun/misc/Unsafe.class" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://D:/JDK/jdk1.8/src.zip!/java/util/concurrent/atomic/AtomicInteger.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://D:/JDK/jdk1.8/src.zip!/java/util/concurrent/atomic/AtomicLong.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://D:/JDK/jdk1.8/src.zip!/java/util/concurrent/atomic/LongAdder.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/fzy/Test.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/fzy/flume/Students.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/fzy/flume/SyslogSendToFluem.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/fzy/io/Write_Reader.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/fzy/jdk8/stream/StreamCollectStudy.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/fzy/jdk8/stream/TestGroupBy.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/fzy/mixed_block/class_load/ClassLoadTest.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/fzy/mixed_block/collect/ErgodicDataByMuster.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/fzy/mixed_block/map_know/MapSort.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/fzy/mixed_block/operation/OperationStudy.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/fzy/mixed_block/tree/BinarySearchTree.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/fzy/mixed_block/tree/RedBlackTree.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -173,13 +229,15 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="alwaysUpdateSnapshots" value="true" />
-        <option name="localRepository" value="D:\Repository" />
-        <option name="mavenHome" value="D:/Maven/apache-maven-3.8.1" />
-        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.8.1\conf\settings.xml" />
+        <option name="mavenHome" value="D:/Maven/apache-maven-3.8.5-bin/apache-maven-3.8.5" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.8.5-bin\apache-maven-3.8.5\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -287,25 +345,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="database.data.extractors.current" value="SQL Inserts" />
-    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path" value="node" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
-    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/Privater/JavaBase",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "MavenSettings"
+  }
+}]]></component>
   <component name="ReaderModeSettings">
     <option name="enabled" value="false" />
   </component>
@@ -324,7 +372,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/fzy/example/test1/b" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Students">
+  <component name="RunManager" selected="Application.com.fzy.Test">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -355,41 +403,38 @@
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="AtomicLongTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fzy.jdk8.atomic.AtomicLongTest" />
-      <module name="JavaBase" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fzy.jdk8.atomic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AtomicReferenceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fzy.jdk8.atomic.AtomicReferenceTest" />
-      <module name="JavaBase" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fzy.jdk8.atomic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="grailsApplicationRoot" value="" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method v="2" />
     </configuration>
-    <configuration name="StringUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fzy.utils.StringUtil" />
+    <configuration name="StrUtilTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fzy.mixed_block.plusClass.StrUtilTest" />
       <module name="JavaBase" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fzy.utils.*" />
+          <option name="PATTERN" value="com.fzy.mixed_block.plusClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -431,30 +476,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <properties />
-      <listeners />
+    <configuration name="com.fzy.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fzy.Test" />
+      <module name="JavaBase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fzy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="passParentEnv" value="true" />
-      <setting name="grailsApplicationRoot" value="" />
-      <setting name="launchBrowser" value="true" />
-      <setting name="launchBrowserUrl" value="" />
-      <setting name="depsClasspath" value="false" />
-      <method v="2" />
+    <configuration name="UsuallyUseMatching.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaBase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fzy.regular.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fzy.regular" />
+      <option name="MAIN_CLASS_NAME" value="com.fzy.regular.UsuallyUseMatching" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
@@ -465,13 +516,6 @@
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="MyLearn_1" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -495,19 +539,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.com.fzy.Test" />
       <item itemvalue="Application.Students" />
       <item itemvalue="Application.Test" />
-      <item itemvalue="Application.StringUtil" />
-      <item itemvalue="Application.AtomicLongTest" />
-      <item itemvalue="Application.AtomicReferenceTest" />
+      <item itemvalue="Application.StrUtilTest" />
+      <item itemvalue="JUnit.UsuallyUseMatching.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.fzy.Test" />
         <item itemvalue="Application.Students" />
-        <item itemvalue="Application.AtomicReferenceTest" />
+        <item itemvalue="JUnit.UsuallyUseMatching.test" />
+        <item itemvalue="Application.StrUtilTest" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.AtomicLongTest" />
-        <item itemvalue="Application.StringUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -801,7 +845,47 @@
       <workItem from="1631517126894" duration="616000" />
       <workItem from="1631520140521" duration="1229000" />
       <workItem from="1631778970844" duration="1889000" />
-      <workItem from="1635387848497" duration="741000" />
+      <workItem from="1635387848497" duration="2055000" />
+      <workItem from="1635471124034" duration="34370000" />
+      <workItem from="1635817308248" duration="1574000" />
+      <workItem from="1636079518758" duration="3864000" />
+      <workItem from="1636334853918" duration="233000" />
+      <workItem from="1636424626188" duration="6607000" />
+      <workItem from="1636507525580" duration="8344000" />
+      <workItem from="1636530265671" duration="8574000" />
+      <workItem from="1636938492265" duration="126000" />
+      <workItem from="1636938634805" duration="3764000" />
+      <workItem from="1638755782747" duration="85000" />
+      <workItem from="1638769669523" duration="709000" />
+      <workItem from="1638773508798" duration="3675000" />
+      <workItem from="1638960371368" duration="1919000" />
+      <workItem from="1639044144800" duration="1318000" />
+      <workItem from="1639359007925" duration="607000" />
+      <workItem from="1639386659186" duration="4291000" />
+      <workItem from="1639652125343" duration="2000" />
+      <workItem from="1639654313750" duration="1191000" />
+      <workItem from="1639963651672" duration="2504000" />
+      <workItem from="1640134931313" duration="1347000" />
+      <workItem from="1640222739023" duration="2467000" />
+      <workItem from="1640568119484" duration="5546000" />
+      <workItem from="1641258803168" duration="2482000" />
+      <workItem from="1641433553204" duration="448000" />
+      <workItem from="1641434296567" duration="3273000" />
+      <workItem from="1641950882664" duration="1238000" />
+      <workItem from="1642037345616" duration="6632000" />
+      <workItem from="1642388177324" duration="2362000" />
+      <workItem from="1642396714735" duration="4731000" />
+      <workItem from="1642987772175" duration="2081000" />
+      <workItem from="1644198556996" duration="4523000" />
+      <workItem from="1644475525557" duration="238000" />
+      <workItem from="1644475787444" duration="8256000" />
+      <workItem from="1644980803362" duration="5320000" />
+      <workItem from="1655109164960" duration="3005000" />
+      <workItem from="1655372606383" duration="2143000" />
+      <workItem from="1659426839286" duration="1245000" />
+      <workItem from="1659489837648" duration="3215000" />
+      <workItem from="1659576533553" duration="1220000" />
+      <workItem from="1659662226047" duration="1675000" />
     </task>
     <task id="LOCAL-00001">
       <created>1491234229029</created>
@@ -936,7 +1020,42 @@
       <option name="project" value="LOCAL" />
       <updated>1629709613850</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="feat:Stream类(;;)">
+      <created>1635388638595</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1635388638595</updated>
+    </task>
+    <task id="LOCAL-00021" summary="feat:Stream类(;;)">
+      <created>1635493603795</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1635493603795</updated>
+    </task>
+    <task id="LOCAL-00022" summary="feat:Stream类(;;)">
+      <created>1640842894403</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1640842894403</updated>
+    </task>
+    <task id="LOCAL-00023" summary="feat:Stream类(;;)">
+      <created>1640843057564</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1640843057564</updated>
+    </task>
+    <task id="LOCAL-00024" summary="feat:(循环栏类)-add">
+      <created>1659684657815</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1659684657815</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1051,7 +1170,26 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix: Stream(流)是一个来自数据源的元素队列并支持聚合操作" />
@@ -1070,7 +1208,9 @@
     <MESSAGE value="feat:StrUtil测试类" />
     <MESSAGE value="feat:Stream流测试类" />
     <MESSAGE value="feat:Atomic类(;;)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:Atomic类(;;)" />
+    <MESSAGE value="feat:Stream类(;;)" />
+    <MESSAGE value="feat:(循环栏类)-add" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:(循环栏类)-add" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

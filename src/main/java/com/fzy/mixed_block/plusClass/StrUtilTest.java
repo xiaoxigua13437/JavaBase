@@ -1,8 +1,12 @@
 package com.fzy.mixed_block.plusClass;
 
+import cn.hutool.core.date.LocalDateTimeUtil;
 import cn.hutool.core.util.StrUtil;
+import com.fzy.utils.DateUtil;
 
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -31,7 +35,6 @@ public class StrUtilTest {
 
     public static void main(String[] args){
 
-        System.out.println("AB".indexOf("A"));
 
     }
 

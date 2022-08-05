@@ -1,6 +1,12 @@
 package com.fzy.regular;
 
+import com.alibaba.fastjson.JSONObject;
+import com.fzy.flume.Students;
+import org.apache.commons.lang3.StringUtils;
 import org.junit.Test;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * 常用的正则匹配规则
@@ -32,7 +38,19 @@ public class UsuallyUseMatching {
     @Test
     public void test() {
 
-        System.out.println(RegularTest.regularMatching("18365268284",mobileRegEx));
+       /* boolean flag = StringUtils.isNumeric("18赵方");
+        System.out.println(flag);*/
+        List<Students> list = new ArrayList<>();
+        Students s1 = Students.builder().build();
+        Students s2 = Students.builder().build();
+        s1 = Students.builder().age("12").build();
+        s2 = Students.builder().age("13").build();
+        list.add(s1);
+        list.add(s2);
+
+        System.out.println(JSONObject.toJSON(list));
+
+        //System.out.println(RegularTest.regularMatching("18365268284",chineseCharRegEx));
 
     }
 

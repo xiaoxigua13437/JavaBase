@@ -1,5 +1,9 @@
 package com.fzy;
 
+import com.alibaba.fastjson.JSON;
+
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
 import java.util.*;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.locks.Condition;
@@ -21,7 +25,7 @@ public class Test {
 
     String uuid = UUID.randomUUID().toString();
     System.out.println(uuid.toUpperCase().replace("-", ""));
-
+    System.out.println(JSON.toJSON(BigDecimal.ONE));
 
 
   }

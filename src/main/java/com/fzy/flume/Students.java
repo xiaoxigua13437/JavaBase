@@ -5,6 +5,7 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.fzy.utils.ObjectUtil;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 
 import java.util.*;
@@ -12,6 +13,7 @@ import java.util.stream.Collectors;
 
 @Data
 @AllArgsConstructor
+@Builder
 public class Students {
 
     private String name;
@@ -72,7 +74,7 @@ public class Students {
 
         System.out.println(JSON.toJSON(map));*/
 
-        List<Students> studentsList = new ArrayList<>();
+        /*List<Students> studentsList = new ArrayList<>();
         Students s1 = new Students("无双","12",1);
         studentsList.add(s1);
         Students s2 = new Students("无双","13",1);
@@ -86,8 +88,7 @@ public class Students {
 
         List<Students> list = studentsList.stream().filter(s -> !strList.contains(s.getAge())).collect(Collectors.toList());
 
-        System.out.println(JSONObject.toJSON(list));
-
+        System.out.println(JSONObject.toJSON(list));*/
 
 
     }
