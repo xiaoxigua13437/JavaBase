@@ -1,0 +1,39 @@
+<changelist name="Uncommitted_changes_before_Update_at_2022_8_5_15_32_[Default]" date="1659684775708" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022_8_5_15_32_[Default]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 2022/8/5 15:32 [Default]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/fzy/regular/UsuallyUseMatching.class" />
+    <option name="AFTER_PATH" value="target/classes/com/fzy/regular/UsuallyUseMatching.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022_8_5_15_32_[Default]/UsuallyUseMatching.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/fzy/flume/Students.class" />
+    <option name="AFTER_PATH" value="target/classes/com/fzy/flume/Students.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022_8_5_15_32_[Default]/Students.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/fzy/Test.class" />
+    <option name="AFTER_PATH" value="target/classes/com/fzy/Test.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022_8_5_15_32_[Default]/Test.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/fzy/mixed_block/plusClass/StrUtilTest.class" />
+    <option name="AFTER_PATH" value="target/classes/com/fzy/mixed_block/plusClass/StrUtilTest.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022_8_5_15_32_[Default]/StrUtilTest.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/fzy/jdk8/stream/Stream.class" />
+    <option name="AFTER_PATH" value="target/classes/com/fzy/jdk8/stream/Stream.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022_8_5_15_32_[Default]/Stream.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/fzy/flume/FlumeSkinsJdbc.class" />
+    <option name="AFTER_PATH" value="target/classes/com/fzy/flume/FlumeSkinsJdbc.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022_8_5_15_32_[Default]/FlumeSkinsJdbc.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/com/fzy/io/InputStreamReader_OutputStreamWriter.class" />
+    <option name="AFTER_PATH" value="target/classes/com/fzy/io/InputStreamReader_OutputStreamWriter.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022_8_5_15_32_[Default]/InputStreamReader_OutputStreamWriter.class" />
+  </binary>
+</changelist>
