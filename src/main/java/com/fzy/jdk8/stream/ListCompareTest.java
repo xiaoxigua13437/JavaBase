@@ -30,7 +30,7 @@ public class ListCompareTest {
         list2.add("8");
 
         // 交集
-        List<String> intersection = list1.stream().filter(item -> list2.contains(item)).collect(Collectors.toList());
+        List<String> intersection = list1.stream().filter(list2::contains).collect(Collectors.toList());
         System.out.println("---交集 intersection---");
         intersection.parallelStream().forEach(System.out :: println);
 

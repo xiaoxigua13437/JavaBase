@@ -2,6 +2,9 @@ package com.fzy.jdk8.synchronizer;
 
 import lombok.extern.slf4j.Slf4j;
 
+import java.util.Collections;
+import java.util.concurrent.CountDownLatch;
+
 
 /**
  *
@@ -18,12 +21,23 @@ import lombok.extern.slf4j.Slf4j;
 public class CountDownLatchSyn {
 
 
+
+
     /**
      * ######################################################
      * #=========================yuShu====================#
      * ######################################################
      */
 
+
+    public void test(){
+
+        Collections.emptyList();
+
+
+
+
+    }
 
 
 
